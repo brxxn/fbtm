@@ -1,0 +1,17 @@
+name: fbtm
+on:
+  issue_comment:
+    types: [created]
+permissions:
+  contents: write
+  issues: write
+jobs:
+  issue_commented:
+    name: comment
+    if: ${{ !github.event.issue.pull_request }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: brxxn/fbtm-action@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}

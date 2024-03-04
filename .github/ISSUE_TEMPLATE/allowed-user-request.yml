@@ -1,0 +1,55 @@
+name: Request access to approve requests
+description: Request access to be able to use /approve on your own and other requests
+title: Requesting allowed user access
+labels: ["allowed-user-request", "access-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please make sure you meet the requirements before requesting access. If you do
+        not meet the requirements listed, this issue will be closed without a response.
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: |
+        Provide the reason you are requesting access. Valid reasons include having shown
+        past history of correctly submitting rev requests that get approved and not 
+        violating rules, having made contributions to the action repo, or having helped
+        debug previous issues in the past.
+
+        Meta employees may also request this access without meeting other requirements,
+        provided they can provide proof of being an employee.
+    validations:
+      required: true
+  - type: checkboxes
+    id: agreements
+    attributes:
+      label: Agreements
+      description: Agreeing to all of the below statements is required to request access.
+      options:
+        - label: |
+            I understand that if approved access to tools can be revoked at any time for
+            any reason.
+          required: true
+        - label: |
+            Before approving issues, I will check to the best of my ability that it will
+            not result in an error that causes future approvals to be broken in a way that
+            requires a maintainer to fix the repository.
+          required: true
+        - label: |
+            I agree not to overuse the /approve command in a way that causes the action
+            minute limits to be exceeded.
+          required: true
+        - label: |
+            I agree not to attempt to bypass restrictions in place to prevent dangerous
+            flags from being used without permission. The reason these restrictions are in
+            place is to prevent the repository from breaking, so please double-check before
+            using flags you are unsure about.
+          required: true
+        - label: |
+            You agree to only use this utility for security research and authenticity purposes.
+            You understand that using this data for unauthorized purposes may violate Meta's rights,
+            and that you alone are solely responsible for how you use the content provided by this
+            utility.
+          required: true

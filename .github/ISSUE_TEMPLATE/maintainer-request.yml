@@ -1,0 +1,56 @@
+name: Request maintainer access
+description: Request maintainer/collaborator access to this repo
+title: Requesting maintainer access
+labels: ["maintainer-request", "access-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form is used to request maintainer access to this repository. Most users
+        likely do not require this access, and high trust is required to obtain access.
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: |
+        Please provide the reason why you need maintainer access. You should first
+        evaluate whether or not you can do what you are trying to do with just allowed
+        user access.
+
+        Requests for access to test changes here are usually rejected, as this can be done
+        in your own private repository. Please do not test changes here, as this can disrupt
+        the workflow of researchers.
+
+        Provide as much history as possible that shows your contributions towards this repo
+        and/or the actions repo. If you do not have any, your request may be denied.
+
+        If you are a Meta employee, you will need to provide valid proof that you are an
+        employee through a service that can be used to contact you that verifies you are
+        an employee (i.e. provide an @meta/fb email, unixname, FBWP/WHWP user ID, intern user ID, etc.).
+        Once I can verify that you are an employee, you will be granted access.
+  - type: checkboxes
+    id: agreements
+    attributes:
+      label: Agreements
+      description: You must agree to all of the following in order to be granted access.
+      options:
+        - label: |
+            I will not use my access to test changes on here unless absolutely necessary. If I
+            do need to test changes, I will get it approved first.
+          required: true
+        - label: |
+            I understand that access may be revoked for any reason, and if I only need limited time
+            access, it may be revoked afterwards.
+          required: true
+        - label: |
+            I will carefully check to make sure that any actions I perform will not break the repo.
+            If these actions do break the repo, I will do my best to revert changes such that the
+            repo works again.
+          required: true
+        - label: |
+            I will not make major changes to the repository without permission.
+          required: true
+        - label: |
+            I will not grant other users approval access unless they meet the required conditions or
+            revoke approval access unless it is clearly needed.
+          required: true

@@ -1,0 +1,63 @@
+name: Request a rev
+description: Request a rev get added to the repo
+title: "Requesting rev [ID]"
+labels: ["rev-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue form is used to request a rev get processed by the action and put
+        in this repository. Before submitting, please make sure it meets all the
+        listed requirements. Frequently submitting requests that violate the
+        requirements or making a large amount of unnecessary replies can result in
+        being **blocked from submitting issues**, as this behavior can waste action
+        minutes which could prevent others with valid requests from having them
+        fulfilled.
+  - type: input
+    id: fb-rev
+    attributes:
+      label: fb-rev
+      description: |
+        Use this field to put the rev you are requesting. If you put an fb-rev in the title,
+        make sure this matches it, as your request will be rejected otherwise. Make sure to
+        format it properly (like `fb-rev: 12345`) with no additional spaces and proper spelling.
+      placeholder: |
+        fb-rev: 00000
+    validations:
+      required: true
+  - type: textarea
+    id: reasoning
+    attributes:
+      label: Reasoning
+      description: |
+        Use this field to explain why you are requesting this rev be processed. Because processing
+        takes action minutes and uses space in the repository, an explanation for why you are 
+        requesting this rev is required. This does not have to be complex, but it does need to 
+        explain why you are requesting it. Valid reasons include investigating changes you know
+        exist, needing to diff a specific rev, or some other reason that shows why you need it.
+
+        Note that a valid reason is *not* required if a rev has not been processed in two days.
+        In this case, you can just specify that a rev has not been recently processed and that will
+        qualify as a valid reason (please check that another issue has not been filed requesting one).
+    validations:
+      required: true
+  - type: checkboxes
+    id: requirements
+    attributes:
+      label: Requirements
+      description: |
+        Please make sure your rev meets the following requirements. Failing to meet them will result
+        in your request being rejected or unable to be processed.
+      options:
+        - label: If you included an fb-rev in the title, it matches the fb-rev in the input.
+          required: true
+        - label: "You have formatted your fb-rev in the format `fb-rev: 12345` exactly."
+          required: true
+        - label: There does not exist an issue for this rev that is currently open.
+          required: true
+        - label: |
+            You understand that the results are to be used for security research and authenticity
+            purposes only, and that using it for other reasons could potentially violate Meta's
+            Terms of Service and Intellectual Property rights. You also understand that this content
+            may be removed at any time at the request of Meta employees or representatives.
+          required: true
