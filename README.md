@@ -47,7 +47,7 @@ source directly from the Binary Transparency archive yourself!
 purposes, it should not violate Meta's terms of service. Meta openly publishes these archives using their
 [Code Verify Chrome Extension](https://chromewebstore.google.com/detail/code-verify/llohflklppcaghdpehpbklhlfebooeog)'s
 "Download source code" function. This does not use any internal code or code not available to the public. 
-- **How do I get a new rev searched and compared?** Simply [file an issue](https://github.com/brxxn/fbtm/issues/new)
+- **How do I get a new rev searched and compared?** Simply [file an issue](https://github.com/brxxn/fbtm/issues/new/choose)
 and wait for an approved user to use `/approve`. To get the latest rev, open Facebook and use the following in your
 JS console: `require('SiteData').client_revision`
 - **How do I get the full source for a revision?** You will need to find the rev of the build you are looking for
