@@ -10,6 +10,9 @@ jobs:
     name: comment
     if: ${{ !github.event.issue.pull_request }}
     runs-on: ubuntu-latest
+    concurrency:
+      group: fbtm
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
       - uses: brxxn/fbtm-action@main
