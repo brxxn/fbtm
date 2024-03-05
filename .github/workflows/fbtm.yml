@@ -8,7 +8,7 @@ permissions:
 jobs:
   issue_commented:
     name: comment
-    if: ${{ !github.event.issue.pull_request }}
+    if: ${{ !github.event.issue.pull_request && !contains( github.event.issue.labels.*.name, 'experimental' ) }}
     runs-on: ubuntu-latest
     concurrency:
       group: fbtm
