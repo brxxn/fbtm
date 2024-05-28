@@ -1,0 +1,38 @@
+// new lines (count = 26):
+
+__d("XOwnedDomainHTMLVerificationFileDownloadControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/owned_domain/verification_template/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("XCometCollaborationAllPendingInvitesControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/pending_collaboration_invites/{?collab_inviter_id}/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("XBusinessAccountSwitchRemoveAccountControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/login/device-based/async/business/remove/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("XBusinessSwitchAccountSessionControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/business/account_switch/switch_session/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("IGXCheckoutECPOnsiteHelperControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/onsite/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("IGXPaymentsECPOnsiteHelperControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/onsite/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("XPaymentsFBPayOnsiteECPCheckoutHelperControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/payments/onsite/checkout/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("XCometMessengerE2EEThreadControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/messages/e2ee/t/{?thread_key}/{?*extra_junk}/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("XMessengerDotComCometE2EEThreadControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/e2ee/t/{thread_key}/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("XAdsImageVariationsControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/ads/gen_ai/image_variations/",Object.freeze({is_enable_regen:!1}),void 0);b=a;g["default"]=b}),98);
+__d("XAdsImageVariationsDefaultingControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/ads/gen_ai/image_variations_defaulting/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("XAdsCampaignOptimizationDataControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/ads/signals/capi_optimization_data/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("FBXHorizonMetaWorldDetailsControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/world/{world_id}/",Object.freeze({is_prewarm_playtest:!1,is_world_prewarm_playtest:!1,vr:!1}),new Set(["vr"]));b=a;g["default"]=b}),98);
+__d("XBusinessUnifiedLoginPageControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/business/loginpage/",Object.freeze({cma_account_switch:!1,is_ig_oidc_with_redirect:!1,from_ig_login_upsell_sso:!1,is_work_accounts:!1,is_workplatform:!1,is_targeting_other_login_options:!1,from_shop_manager:!1,from_ig_multi_admin_invite:!1,is_from_invitation_flow:!1,is_null_state:!1,is_ig_switching_account:!1,is_igfa_graduation_account_switch:!1,is_logout_from_dfc:!1}),void 0);b=a;g["default"]=b}),98);
+__d("XCometProfileStatusControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/profile_status/{?profileid}/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("XCometProfileStatusControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/profile_status/{?profileid}/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("XAdsEventsManagerCreateConsolidatedDataSetControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/events_manager/dataset/create/",Object.freeze({is_crm:!1}),void 0);b=a;g["default"]=b}),98);
+__d("XAdsDeliveryPageGeoGatingInfoControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/geo_gating_info/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("XBrandSafetyCampaignAdsetPDRDownloadControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/business/post_campaign_transparency/campaign_level/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("XBrandSafetyCampaignLevelPDREnableDownloadControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/ads/brand_safety/post_campaign/enable_download/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("IGXCheckoutECPOnsiteHelperControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/onsite/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("IGXPaymentsECPOnsiteHelperControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/onsite/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("XPaymentsFBPayOnsiteECPCheckoutHelperControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/payments/onsite/checkout/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("FBXHorizonMetaWorldDetailsControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/world/{world_id}/",Object.freeze({is_prewarm_playtest:!1,is_world_prewarm_playtest:!1,vr:!1}),new Set(["vr"]));b=a;g["default"]=b}),98);
+__d("XAdsCampaignOptimizationDataControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/ads/signals/capi_optimization_data/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("XCometFBReelControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/reel/{?video_id}/",Object.freeze({hide_next:!1}),void 0);b=a;g["default"]=b}),98);
+
+// old lines (count = 7)
+
+__d("FBXHorizonMetaWorldDetailsControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/world/{world_id}/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("XCometFBReelControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/reel/{?video_id}/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("XConsentScreenCometControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/privacy/consent/{flow}/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("XBusinessUnifiedLoginPageControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/business/loginpage/",Object.freeze({cma_account_switch:!1,is_ig_oidc_with_redirect:!1,from_ig_login_upsell_sso:!1,is_work_accounts:!1,is_workplatform:!1,is_targeting_other_login_options:!1,from_shop_manager:!1,from_ig_multi_admin_invite:!1,is_from_invitation_flow:!1,is_null_state:!1,is_ig_switching_account:!1,is_igfa_graduation_account_switch:!1}),void 0);b=a;g["default"]=b}),98);
+__d("XCometGroupMembersPagesControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/groups/{idorvanity}/members/pages/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("FBXHorizonMetaWorldDetailsControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/world/{world_id}/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("XAdsImageVariationsControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/ads/gen_ai/image_variations/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
